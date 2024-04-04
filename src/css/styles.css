@@ -26,10 +26,14 @@
   color: #16153a;
 }
 
+.clean-color{
+  color:#f8f6f5
+}
+
 /* NAVBAR */
 #navbar {
   border-bottom: 1px solid #ca8544;
-  background-color: #cecfd1;
+  background-color: #071327;
 }
 
 #navbar a:hover {
@@ -37,7 +41,7 @@
 }
 
 #navbar a.active {
-  border-bottom: 1px solid #050505;
+  border-bottom: 1px solid #07011b;
 }
 
 .navbar-brand {
@@ -52,6 +56,7 @@
   font-weight: 700;
   font-size: 1.5em;
   margin-left: 0.5em;
+  color: #ca8544;;
 }
 
 #navbar-items .navbar-nav {
@@ -194,8 +199,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  opacity: 0.1;
-  transition: 0.6;
+  opacity: 0;
+  transition: 0.8;
 }
 
 @media (min-width: 768px) {
